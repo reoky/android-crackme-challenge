@@ -1,7 +1,6 @@
 package com.reoky.crackme.challengeone.listeners;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Vibrator;
 import android.view.View;
@@ -10,7 +9,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.reoky.crackme.challengeone.R;
-import com.reoky.crackme.challengeone.util.SHA1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -19,7 +17,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 /**
- * Simple listener class to listener for events on ChallengeOneFragment
+ * Simple listener class to listen for events on ChallengeOneFragment
  * author: Lucas Thoresen
  */
 public class ChallengeOneFragmentOnClickListener implements View.OnClickListener {
@@ -32,9 +30,10 @@ public class ChallengeOneFragmentOnClickListener implements View.OnClickListener
                 if (parent != null) {
                     EditText textGuess = (EditText) parent.findViewById(R.id.challenge_one_text_guess);
 
-                    // Check to see if the user beat the challenge. We compare against an embedded hash to prevent cheating
-                    if (SHA1.computeSHA1Hash(textGuess.getText().toString()).toLowerCase().equals("e195cf366f5df12a86e1c4454133295eb09f66cc")) {
-                        textGuess.setTextColor(Color.MAGENTA);
+                    // Check to see if the user beat the challenge. The code that was here before was
+                    // silly. (And actually for a different type of challenge)
+                    if (textGuess.getText().toString().toLowerCase().equals("poorly-protected-secret")) {
+                        textGuess.setTextColor(parent.getResources().getColor(R.color.color_nebula));
                         Vibrator vibrator = (Vibrator) parent.getContext().getSystemService(Context.VIBRATOR_SERVICE);
                         vibrator.vibrate(400);
                         Toast.makeText(parent.getContext(), "You\'ve completed this challenge!", Toast.LENGTH_LONG).show();
