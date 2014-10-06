@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/repeating_texture"
+    tools:context=".fragments.HintFragment"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_hint_title"
+                android:textSize="24sp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:textColor="@color/color_nebula_selected"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginRight="155dp"
+                android:layout_marginBottom="15dp"/>
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch_show_hint"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="right" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/color_nebula_selected"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="@dimen/margin_small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_hint"
+            android:text="@string/string_hint_hint"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/color_nebula_dark"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
