@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Forensic Challenge One</string>
+    <string name="app_name">CrackMe Two</string>
 
     <string name="tab_challenge">Challenge</string>
     <string name="tab_hint">Hint</string>
     <string name="tab_about">About</string>
 
-    <string name="string_challenge_one_intro">When you hit the \'write file\' button below, a file will be created within the application sandbox. Your goal is to recover the file and enter the secret string below.</string>
-    <string name="string_challenge_one_title">Challenge One</string>
-    <string name="string_challenge_one_subtitle">App Storage</string>
-    <string name="string_challenge_check">Check</string>
-    <string name="string_challenge_guess">Answer Goes Here</string>
-    <string name="string_challenge_write_file">Write File</string>
-    <string name="string_challenge_delete_file">Delete File</string>
+    <string name="string_challenge_two_intro">Opps, looks like the developers of this app left some debug code in. This will just make your job even easier. ;)</string>
+    <string name="string_challenge_two_title">CorpNet Employee Login</string>
+    <string name="string_challenge_two_subtitle">Android Logging</string>
+
+    <!-- CorpNet Form -->
+    <string name="string_challenge_two_user_title">Email</string>
+    <string name="string_challenge_two_secret_title">Secret</string>
+    <string name="string_challenge_two_form_button">Authenticate</string>
+    <string name="string_challenge_two_form_error">The email address or password you provided was incorrect.</string>
 
     <string name="string_hint_title">Display Hint</string>
-    <string name="string_hint_hint">Find out where apps store their data, and use a tool to open the file after you hit the \'write file\' button. You might try searching for an Android file browser.</string>
+    <string name="string_hint_hint">When you start the challenge, some debug information will be logged. Use these bytes, app data, and the Internet, to solve this challenge.</string>
 
     <string name="string_about_title">Android CrackMe Challenge</string>
     <string name="string_about_subtitle">Apps to be reverse-engineered</string>
     <string name="string_about_programmer">Programmer</string>
     <string name="string_about_author">reoky => Lucas Thoresen</string>
-    <string name="string_about_dependencies">Dependencies</string>
-    <string name="string_about_theme_license">App Theme jgilfelt.github.io [Creative Commons 3.0]</string>
-    <string name="string_about_quit">System.Exit</string>
+    <string name="string_about_licenses">Licenses</string>
+    <string name="string_about_license">[This App] - github.com/reoky - MIT</string>
+    <string name="string_about_theme_license">[App Style] - jgilfelt.github.io - CC 3.0</string>
+    <string name="string_about_icon_license">[App Icon] - romannurik.github.io - CC 3.0</string>
+    <string name="string_about_quit">Exit Zero</string>
 
 </resources>

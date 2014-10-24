@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/repeating_texture"
+    tools:context=".fragment.ChallengeTwoFragment"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Page Title and Horz. Bar -->
+        <TextView
+            android:id="@+id/TextView_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_challenge_two_title"
+            android:textSize="24sp"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/color_nebula_selected"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginBottom="15dp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/color_nebula_selected"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_small" />
+
+        <FrameLayout
+            android:id="@+id/corpnet_form_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:background="@color/color_nebula_light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_micro"
+                android:layout_marginTop="@dimen/margin_micro"
+                android:text="@string/string_challenge_two_form_error"/>
+        </FrameLayout>
+
+        <!-- User email slice -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_small">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_small"
+                android:textColor="@color/color_nebula_selected"
+                android:textSize="@dimen/font_medium"
+                android:text="@string/string_challenge_two_user_title"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="12"
+                android:id="@+id/challenge_two_text_email"
+                android:layout_gravity="center_horizontal" />
+         </LinearLayout>
+
+        <!-- User password slice -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_small">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/color_nebula_selected"
+                android:textSize="@dimen/font_medium"
+                android:layout_marginRight="@dimen/margin_small"
+                android:text="@string/string_challenge_two_secret_title"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/challenge_two_text_secret"
+                android:textColor="@color/color_nebula_dark"
+                android:ems="12"
+                android:editable="true"
+                android:inputType="textPassword"
+                android:enabled="true"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:layout_width="wrap_content" />
+
+        </LinearLayout>
+
+        <!-- The authenticate button at the bottom of the screen -->
+        <Button
+            android:id="@+id/challenge_two_button_check"
+            android:text="@string/string_challenge_two_form_button"
+            android:background="@drawable/button_purple_small"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/margin_small"
+            android:focusable="true"
+            android:enabled="true" />
+
+    </LinearLayout>
+</ScrollView>
