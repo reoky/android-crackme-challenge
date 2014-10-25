@@ -22,8 +22,6 @@ public class ChallengeOneFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        final InputMethodManager immy = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-        immy.hideSoftInputFromWindow(getView().getWindowToken(), 0);
     }
 
     @Override
