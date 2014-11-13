@@ -9,29 +9,39 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/TextView_Title"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/string_about_title"
-            android:layout_marginTop="@dimen/margin_medium"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/color_nebula_dark"
-            android:textStyle="bold" />
+            android:orientation="vertical"
+            android:background="@color/color_nebula_selected"
+            android:layout_marginBottom="@dimen/margin_small">
 
-        <TextView
-            android:id="@+id/TextView_SubTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="italic"
-            android:textColor="@color/color_nebula_dark"
-            android:text="@string/string_about_subtitle"
-            android:layout_marginTop="@dimen/margin_small"
-            android:layout_gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/TextView_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_about_title"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView_SubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="italic"
+                android:textColor="@android:color/white"
+                android:text="@string/string_about_subtitle"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/TextView_Credits"
@@ -39,41 +49,61 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/string_about_programmer"
-            android:textColor="@color/color_nebula_dark"
+            android:textColor="@color/color_nebula_selected"
             android:textStyle="bold"
-            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_tiny"
+            android:layout_marginBottom="@dimen/margin_tiny"
             android:layout_gravity="center_horizontal" />
 
         <TextView
-            android:id="@+id/TextView_Author"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="@string/string_about_author"
-            android:textColor="@color/color_nebula_dark"
-            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/color_nebula_selected"
+            android:layout_marginBottom="@dimen/margin_tiny"
             android:layout_gravity="center_horizontal"/>
 
+
         <TextView
-            android:id="@+id/TextView_Dependencies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/string_about_dependencies"
-            android:textColor="@color/color_nebula_dark"
+            android:text="@string/string_about_licenses"
+            android:textColor="@color/color_nebula_selected"
             android:textStyle="bold"
-            android:layout_marginTop="@dimen/margin_medium"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_tiny"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/string_about_license"
+            android:textColor="@color/color_nebula_selected"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_small"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="@string/string_about_theme_license"
-            android:id="@+id/TextView_Theme_License"
-            android:layout_marginTop="@dimen/margin_small"
-            android:textColor="@color/color_nebula_dark"
-            android:layout_gravity="center_horizontal" />
+            android:textColor="@color/color_nebula_selected"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/string_about_icon_license"
+            android:textColor="@color/color_nebula_selected"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"/>
 
         <Button
             android:id="@+id/button_quit"
@@ -82,10 +112,10 @@
             android:text="@string/string_about_quit"
             android:background="@drawable/button_purple_small"
             android:textColor="@android:color/white"
-            android:textSize="16sp"
-            android:layout_marginTop="@dimen/margin_medium"
+            android:textSize="@dimen/font_medium"
             android:layout_gravity="center_horizontal"
             android:enabled="true"
+            android:layout_marginTop="@dimen/margin_small"
             android:layout_marginBottom="@dimen/margin_small" />
 
     </LinearLayout>
