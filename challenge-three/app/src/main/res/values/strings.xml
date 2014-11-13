@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Forensic Challenge One</string>
+    <string name="app_name">Forensic Challenge Three</string>
 
     <string name="tab_challenge">Challenge</string>
     <string name="tab_hint">Hint</string>
     <string name="tab_about">About</string>
 
-    <string name="string_challenge_one_intro">When you hit the \'write file\' button below, a file will be created within the application sandbox. Your goal is to recover the file and enter the secret string below.</string>
-    <string name="string_challenge_one_title">Challenge One</string>
-    <string name="string_challenge_one_subtitle">App Storage</string>
-    <string name="string_challenge_check">Check</string>
-    <string name="string_challenge_guess">Answer Goes Here</string>
-    <string name="string_challenge_write_file">Write File</string>
-    <string name="string_challenge_delete_file">Delete File</string>
+    <string name="string_challenge_three_intro">The app is connecting to rit.edu and looking for the string \'so-much-snow\' anywhere on the home page. Alter the page on the fly in order to trick the app into unlocking.</string>
+    <string name="string_challenge_three_url">http://www.rit.edu/</string>
+    <string name="string_challenge_three_keyword">so-much-snow</string>
+    <string name="string_challenge_three_title">Challenge Three</string>
+    <string name="string_challenge_three_subtitle">Web Security</string>
+    <string name="string_challenge_three_complete">Challenge Complete</string>
+    <string name="string_challenge_three_complete_msg_zero">"You\'ve completed this challenge!"</string>
+    <string name="string_challenge_three_complete_msg_one">Many apps blindly connect to APIs and are vulnerable to this kind of attack! Congratz!</string>
 
     <string name="string_hint_title">Display Hint</string>
-    <string name="string_hint_hint">Find out where apps store their data, and use a tool to open the file after you hit the \'write file\' button. You might try searching for an Android file browser.</string>
+    <string name="string_hint_hint">To complete this challenge, you\'ll need to do a man-in-the-middle attack. When the app tries to connect to rit.edu and finds the string "so-much-snow" instead, it will unlock. Try a tool like mitmproxy to get this to work, and be sure to do this on your own network!</string>
 
     <string name="string_about_title">Android CrackMe Challenge</string>
     <string name="string_about_subtitle">Apps to be reverse-engineered</string>
     <string name="string_about_programmer">Programmer</string>
     <string name="string_about_author">reoky => Lucas Thoresen</string>
-    <string name="string_about_dependencies">Dependencies</string>
-    <string name="string_about_theme_license">App Theme jgilfelt.github.io [Creative Commons 3.0]</string>
-    <string name="string_about_quit">System.Exit</string>
+    <string name="string_about_licenses">Licenses</string>
+    <string name="string_about_license">[This App] - github.com/reoky - MIT</string>
+    <string name="string_about_theme_license">[App Style] - jgilfelt.github.io - CC 3.0</string>
+    <string name="string_about_icon_license">[App Icon] - romannurik.github.io - CC 3.0</string>
+    <string name="string_about_quit">Exit Zero</string>
 
 </resources>
