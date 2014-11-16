@@ -31,7 +31,7 @@ Other tools you can use to break these apps:
 If you want to contribute back, that would be awesome, just fork my repo, make a pull request and I'll do a code review. ^_^
 
 ### Licenses ###
-The Challenges: MIT (http://opensource.org/licenses/MIT)
-Generated Style: jgilfelt.github.io - CC 3.0 (https://creativecommons.org/licenses/by/3.0/)
-Generated Icons: romannurik.github.io - CC 3.0 (https://creativecommons.org/licenses/by/3.0/)
+* The Challenges: MIT (http://opensource.org/licenses/MIT)
+* Generated Style: jgilfelt.github.io - CC 3.0 (https://creativecommons.org/licenses/by/3.0/)
+* Generated Icons: romannurik.github.io - CC 3.0 (https://creativecommons.org/licenses/by/3.0/)
 
