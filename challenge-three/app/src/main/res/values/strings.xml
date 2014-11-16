@@ -17,13 +17,13 @@
     <string name="string_challenge_three_complete_msg_one">Many apps blindly connect to APIs and are vulnerable to this kind of attack! Congratz!</string>
 
     <string name="string_hint_title">Display Hint</string>
-    <string name="string_hint_hint">To complete this challenge, you\'ll need to do a man-in-the-middle attack. When the app tries to connect to rit.edu and finds the string "so-much-snow" instead, it will unlock. Try a tool like mitmproxy to get this to work, and be sure to do this on your own network!</string>
+    <string name="string_hint_hint">To complete this challenge, you\'ll need to do a man-in-the-middle attack. When the app tries to connect to rit.edu and finds the string "so-much-snow" instead, it will unlock. Try a tool like mitmproxy to get this to work, and be sure to do this on your own network! (mitmproxy is included with Kali Linux)</string>
 
     <string name="string_about_title">Android CrackMe Challenge</string>
     <string name="string_about_subtitle">Apps to be reverse-engineered</string>
     <string name="string_about_programmer">Programmer</string>
     <string name="string_about_author">reoky => Lucas Thoresen</string>
-    <string name="string_about_licenses">Licenses</string>
+    <string name="string_about_licenses">Licenses</string>git
     <string name="string_about_license">[This App] - github.com/reoky - MIT</string>
     <string name="string_about_theme_license">[App Style] - jgilfelt.github.io - CC 3.0</string>
     <string name="string_about_icon_license">[App Icon] - romannurik.github.io - CC 3.0</string>
