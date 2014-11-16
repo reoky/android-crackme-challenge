@@ -1,27 +1,42 @@
 # README #
 
 ### What is This? ###
-This project is a collection of CTF style Android challenges that students can use to learn about the art of reverse engineering mobile software. I do not claim to be an expert at this, but I've learned enough to build some exciting challenges for the community. Your goal is simple, build and run each APK/challenge, complete all the challenges for knowledge/profit. If you get stuck, read the hint, if you get really stuck, read the source. Each challenge will have some way to verify that you've completed it; usually entering a unique string.
+This project is a collection of Android CrackMe challenges that students can use to learn about the art of reverse engineering mobile software. I do not claim to be an expert at this, but I've learned enough to build some exciting challenges for the community. Your goal is simple, build and run each APK/challenge, complete all the challenges for knowledge and profit. If you get stuck, read the hint, if you get really stuck, read the source. Each challenge will have some way to verify that you've completed it.
+
+### Getting the Challenges ###
+The apks will be on my blog soon, and the links will be posted here.
 
 ### Mobile Android Challenges ###
 
-* Challenge One   : A file will be created within the application's sandbox boundaries. You must extract its contents. [EASYMODE]
+* Challenge One   : A file will be created within the application's sandbox boundaries. You must extract its contents.
 * Challenge Two   : Builds on challenge one, data gets dumped to Logcat, and may need search engine foo.
-* Challenge Three : This app makes web requests to an API out on the Internet. Trick the app into connecting to the wrong webserver.
+* Challenge Three : This app searches a webpage for a string. Go on your own network and insert the string with a man-in-the-middle attack. :]
 * Chellenge Four  : The app unlocks only when you're in Minnesota. Either travel to Minnesota or learn about mock locations to complete the challenge.
 * Challenge Five  : PENDING
 
 ### Setting Up Your Dev Machine ###
 
 * Summary
-In short, you gotta install Android Studio. This software was written using Android Studio version 0.8.1. You'll probably want to download the installation package from Google and build one of the test apps before attempting to build this one.
+This software was written using Android Studio. You'll probably want to download the installation package from Google and build one of the test apps before attempting to build this one.
+
+* Android Developer Studio: https://developer.android.com/sdk/installing/studio.html
+
+Other tools you can use to break these apps:
+* Mitmproxy: http://mitmproxy.org/
+* Kali Linux (Includes mitmproxy): https://www.kali.org/downloads/
+* VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 * Configuration
-SDK Target is 4.3 with support back to API 11 (3.0)
+SDK Target API 20 with support back to API 11 (3.0) and maybe sometimes API 14.
 
 * Dependencies
 Gradle build system should be installed. It should be included with the Google Android Studio package
 
-
 ### Who do I talk to? ###
-Contact reoky about making contributions to this repo or anything else really.
+If you want to contribute back, that would be awesome, just fork my repo, make a pull request and I'll do a code review. ^_^
+
+### Licenses ###
+The Challenges: MIT (http://opensource.org/licenses/MIT)
+Generated Style: jgilfelt.github.io - CC 3.0 (https://creativecommons.org/licenses/by/3.0/)
+Generated Icons: romannurik.github.io - CC 3.0 (https://creativecommons.org/licenses/by/3.0/)
+
