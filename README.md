@@ -12,7 +12,8 @@ The apks will be on my blog soon, and the links will be posted here.
 * Challenge Two   : Builds on challenge one, data gets dumped to Logcat, and may need search engine foo.
 * Challenge Three : This app searches a webpage for a string. Go on your own network and insert the string with a man-in-the-middle attack. :]
 * Chellenge Four  : The app unlocks only when you're in Minnesota. Either travel to Minnesota or learn about mock locations to complete the challenge.
-* Challenge Five  : PENDING
+* Challenge Five  : The password is stored in the app's string resources. Decompile the app and go get it. This should be fairly easy.
+* Challenge Six   : PENDING
 
 ### Setting Up Your Dev Machine ###
 
