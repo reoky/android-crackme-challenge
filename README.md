@@ -22,15 +22,10 @@ This software was written using Android Studio. You'll probably want to download
 * Android Developer Studio: https://developer.android.com/sdk/installing/studio.html
 
 Other tools you can use to break these apps:
+
 * Mitmproxy: http://mitmproxy.org/
 * Kali Linux (Includes mitmproxy): https://www.kali.org/downloads/
 * VirtualBox: https://www.virtualbox.org/wiki/Downloads
-
-* Configuration
-SDK Target API 20 with support back to API 11 (3.0) and maybe sometimes API 14.
-
-* Dependencies
-Gradle build system should be installed. It should be included with the Google Android Studio package
 
 ### Who do I talk to? ###
 If you want to contribute back, that would be awesome, just fork my repo, make a pull request and I'll do a code review. ^_^
