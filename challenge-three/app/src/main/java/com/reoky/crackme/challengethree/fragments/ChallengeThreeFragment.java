@@ -22,7 +22,7 @@ public class ChallengeThreeFragment extends Fragment {
     private Handler handler = new Handler();
 
     private double delay; // Delay for this attempt and starting value for the countdown
-    public static int attempt; // The refresh attempt number (1..5)
+    public static int attempt; // The refresh attempt number (1..10)
     public static double countdown; // Counter until next attempt
 
     public static TextView textPageContent;
@@ -56,15 +56,14 @@ public class ChallengeThreeFragment extends Fragment {
         handler.removeCallbacks(runnable);
     }
 
-
     Runnable runnable = new Runnable() {
         @Override
         public void run() {
 
             // Calculate the amount of time to wait before next refresh
-            // 10ln((x^x) , 1 < x < 5
+            // 10ln((x^x) , 1 < x < 10
             if (countdown <= 0.0) {
-                if (attempt < 5) { attempt++; } else { handler.removeCallbacks(runnable); }
+                if (attempt < 10) { attempt++; }
                 delay = 10.0 * (int) Math.log(Math.pow(attempt, attempt));
                 countdown = delay;
 

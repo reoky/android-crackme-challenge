@@ -3,5 +3,5 @@
     <color name="color_nebula_dark">#ff250000</color>
     <color name="color_nebula_light">#aa66cc</color>
     <color name="color_nebula">#9933cc</color>
-    <color name="color_nebula_selected">#ff430e80</color>
+    <color name="color_nebula_selected">#430e80</color>
 </resources>

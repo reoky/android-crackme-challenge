@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Forensic Challenge One</string>
+    <string name="app_name">CrackMe Four</string>
 
     <string name="tab_challenge">Challenge</string>
     <string name="tab_hint">Hint</string>
     <string name="tab_about">About</string>
 
-    <string name="string_challenge_one_intro">When you hit the \'write file\' button below, a file will be created within the application sandbox. Your goal is to recover the file and enter the secret string below.</string>
-    <string name="string_challenge_one_title">Challenge One</string>
-    <string name="string_challenge_one_subtitle">App Storage</string>
-    <string name="string_challenge_check">Check</string>
-    <string name="string_challenge_guess">Answer Goes Here</string>
-    <string name="string_challenge_write_file">Write File</string>
-    <string name="string_challenge_delete_file">Delete File</string>
+    <string name="string_challenge_four_intro">The app is currently trying to pinpoint your location. Don\'t worry, that data isn\'t going anywhere, but you\'ll need to make your phone think it\'s in Minneapolis to complete the challenge. Accepted coordinates are: 44.xxxxxxx,-93.xxxxxxx</string>
+    <string name="string_challenge_four_title">Challenge Four</string>
+    <string name="string_challenge_four_subtitle">Global Positioning</string>
+    <string name="string_challenge_four_location">Current Position</string>
+    <string name="string_challenge_four_check">Complete Challenge</string>
+    <string name="string_challenge_four_win">Challenge Four Completed. Wootang!</string>
+    <string name="string_challenge_four_lose">Sorry man, keep hacking. ^_^</string>
 
     <string name="string_hint_title">Display Hint</string>
-    <string name="string_hint_hint">Find out where apps store their data, and use a tool to open the file after you hit the \'write file\' button. You might try searching for an Android file browser.</string>
+    <string name="string_hint_hint">You\'re going to need to find an app that allows you to create a mock location, or in other words, fake your location so that the Android LocationManager thinks that you\'re in Minneapolis.</string>
 
     <string name="string_about_title">Android CrackMe Challenge</string>
     <string name="string_about_subtitle">Apps to be reverse-engineered</string>
     <string name="string_about_programmer">Programmer</string>
     <string name="string_about_author">reoky => Lucas Thoresen</string>
-    <string name="string_about_dependencies">Dependencies</string>
-    <string name="string_about_theme_license">App Theme jgilfelt.github.io [Creative Commons 3.0]</string>
-    <string name="string_about_quit">System.Exit</string>
+    <string name="string_about_licenses">Licenses</string>
+    <string name="string_about_license">[This App] - github.com/reoky - MIT</string>
+    <string name="string_about_theme_license">[App Style] - jgilfelt.github.io - CC 3.0</string>
+    <string name="string_about_icon_license">[App Icon] - romannurik.github.io - CC 3.0</string>
+    <string name="string_about_quit">Exit Zero</string>
 
 </resources>
