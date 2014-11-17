@@ -4,4 +4,8 @@
 
     <dimen name="margin_medium">50dp</dimen>
     <dimen name="margin_small">20dp</dimen>
+    <dimen name="margin_tiny">8dp</dimen>
+    <dimen name="margin_micro">4dp</dimen>
+
+    <dimen name="font_medium">16sp</dimen>
 </resources>
