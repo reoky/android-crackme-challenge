@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.app.ActionBar;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.WindowManager;
 
 import com.reoky.crackme.challengefive.R;
 import com.reoky.crackme.challengefive.adaptors.ChallengePagerAdapter;
@@ -24,8 +25,7 @@ public class ChallengeActivity extends FragmentActivity implements ActionBar.Tab
         mChallengePagerAdapter = new ChallengePagerAdapter(getSupportFragmentManager());
         actionBar = getActionBar();
 
-        // Configure the action barW
-        actionBar.setHomeButtonEnabled(false);
+        // Configure the action bar
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 
@@ -38,6 +38,9 @@ public class ChallengeActivity extends FragmentActivity implements ActionBar.Tab
         actionBar.addTab(actionBar.newTab().setText("Challenge").setTabListener(this));
         actionBar.addTab(actionBar.newTab().setText("Hint").setTabListener(this));
         actionBar.addTab(actionBar.newTab().setText("About").setTabListener(this));
+
+        // Hide the soft keyboard
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
     }
 
     @Override

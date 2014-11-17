@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Forensic Challenge One</string>
+    <string name="app_name">CrackMe Five</string>
 
     <string name="tab_challenge">Challenge</string>
     <string name="tab_hint">Hint</string>
     <string name="tab_about">About</string>
 
-    <string name="string_challenge_one_intro">When you hit the \'write file\' button below, a file will be created within the application sandbox. Your goal is to recover the file and enter the secret string below.</string>
-    <string name="string_challenge_one_title">Challenge One</string>
-    <string name="string_challenge_one_subtitle">App Storage</string>
-    <string name="string_challenge_check">Check</string>
-    <string name="string_challenge_guess">Answer Goes Here</string>
-    <string name="string_challenge_write_file">Write File</string>
-    <string name="string_challenge_delete_file">Delete File</string>
+    <string name="eight">eight</string>
+    <string name="the_answer">there are ... bits in a byte</string>
+
+    <string name="string_challenge_five_intro">Recover the secret string and enter it in the box below.</string>
+    <string name="string_challenge_five_title">Challenge Five</string>
+    <string name="string_challenge_five_subtitle">String Resources</string>
+    <string name="string_challenge_five_check">Check</string>
+    <string name="string_challenge_five_guess">Answer</string>
+    <string name="string_challenge_five_win">You\'ve completed challenge five.</string>
+    <string name="string_challenge_five_lose">Sorry, that wasn\'t correct.</string>
 
     <string name="string_hint_title">Display Hint</string>
-    <string name="string_hint_hint">Find out where apps store their data, and use a tool to open the file after you hit the \'write file\' button. You might try searching for an Android file browser.</string>
+    <string name="string_hint_hint">Lookup how to decompile Android applications. The string is actually an Android string resource, so finding it shouldn\'t take too much effort. You may even get away with using less tools than you\'d expect.</string>
 
     <string name="string_about_title">Android CrackMe Challenge</string>
     <string name="string_about_subtitle">Apps to be reverse-engineered</string>
     <string name="string_about_programmer">Programmer</string>
     <string name="string_about_author">reoky => Lucas Thoresen</string>
-    <string name="string_about_dependencies">Dependencies</string>
-    <string name="string_about_theme_license">App Theme jgilfelt.github.io [Creative Commons 3.0]</string>
-    <string name="string_about_quit">System.Exit</string>
+    <string name="string_about_licenses">Licenses</string>
+    <string name="string_about_license">[This App] - github.com/reoky - MIT</string>
+    <string name="string_about_theme_license">[App Style] - jgilfelt.github.io - CC 3.0</string>
+    <string name="string_about_icon_license">[App Icon] - romannurik.github.io - CC 3.0</string>
+    <string name="string_about_quit">Exit Zero</string>
 
 </resources>
