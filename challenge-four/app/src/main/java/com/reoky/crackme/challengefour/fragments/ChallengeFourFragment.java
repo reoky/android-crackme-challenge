@@ -76,7 +76,7 @@ public class ChallengeFourFragment extends Fragment implements LocationListener 
     // This is the method that will complete the challenge if the coords are correctish
     public void checkLocation() {
         if (location != null) {
-            if ((int) location.getLatitude() == 45 && (int) location.getLongitude() == -93) {
+            if ((int) location.getLatitude() == 44 && (int) location.getLongitude() == -93) {
                 Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
                 vibrator.vibrate(1400);
                 Toast.makeText(context, getString(R.string.string_challenge_four_win), Toast.LENGTH_SHORT).show();
