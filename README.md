@@ -6,26 +6,12 @@ This project is a collection of Android CrackMe challenges that students can use
 ### Getting the Challenges ###
 Below you can find download links for each app! Have fun!
 
-
-[![CrackMe One][one-icon]][one-apk] [![CrackMe Two][two-icon]][two-apk] [![CrackMe Three][three-icon]][three-apk] [![CrackMe Four][four-icon]][four-apk] [![CrackMe Five][five-icon]][five-apk]
-
 sha1sum(apk) =
 * eb0a1916c742af44b3da7a6b82768e6548cf0d88  crackme-five.apk
 * d7ea8959af715083531d7e4729cf264fffce66b4  crackme-four.apk
 * dae637b287d4256a614b941249cfb26111d49005  crackme-one.apk
 * 01236c76c078083d3d27eb3e46825f19c2af5ffa  crackme-three.apk
 * e917d98be93278363fd2f57207b4f03adf14a910  crackme-two.apk
-
-  [one-apk]: https://www.dropbox.com/s/mrjnme2xiv45j4g/crackme-one.apk
-  [one-icon]: http://i59.tinypic.com/10o4qxz.png
-  [two-apk]: https://www.dropbox.com/s/zqomglbit48iw5s/crackme-two.apk
-  [two-icon]: http://i60.tinypic.com/2h3c68p.png
-  [three-apk]: https://www.dropbox.com/s/3yll2fglndiohyx/crackme-three.apk
-  [three-icon]: http://i58.tinypic.com/acz6f.png
-  [four-apk]: https://www.dropbox.com/s/4vumdeu0vlepdcf/crackme-four.apk
-  [four-icon]: http://i57.tinypic.com/i6cx03.png
-  [five-apk]: https://www.dropbox.com/s/u8bct350lo41xku/crackme-five.apk
-  [five-icon]: http://i61.tinypic.com/algty0.png
 
 ### Mobile Android Challenges ###
 
